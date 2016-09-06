@@ -1,5 +1,5 @@
-# GeoConcerns Base Image
-## A Base Image for the [GeoConcerns Vagrant environment](https://github.com/geoconcerns/geo-concerns-vagrant)
+# GeoConcerns Base Box
+## A Base Box for the [GeoConcerns Vagrant environment](https://github.com/geoconcerns/geo-concerns-vagrant)
 
 ## Requirements
 
@@ -13,11 +13,11 @@
 2. `cd geo-concerns-base`
 3. `packer build geo-concerns-base.json`
 
-You will now have a VirtualBox Image for the GeoConcerns environment within `output-virtualbox-iso`
+You should now have a base Vagrant Box for the GeoConcerns environment packaged to `builds/virtualbox-ubuntu1404.box`
 
 ## Environment
 
-* Ubuntu 14.04 64-bit base machine
+* Ubuntu 14.04 64-bit ISO image
 
 ## Thanks
 
