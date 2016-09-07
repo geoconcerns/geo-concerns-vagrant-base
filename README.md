@@ -1,4 +1,4 @@
-# GeoConcerns Base Box
+# GeoConcerns Vagrant Base Box
 ## A Base Box for the [GeoConcerns Vagrant environment](https://github.com/geoconcerns/geo-concerns-vagrant)
 
 ## Requirements
@@ -9,9 +9,9 @@
 
 ## Setup
 
-1. `git clone https://github.com/geoconcerns/geo-concerns-base.git`
-2. `cd geo-concerns-base`
-3. `packer build geo-concerns-base.json`
+1. `git clone https://github.com/geoconcerns/geo-concerns-vagrant-base.git`
+2. `cd geo-concerns-vagrant-base`
+3. `packer build geo-concerns-vagrant-base.json`
 
 You should now have a base Vagrant Box for the GeoConcerns environment packaged to `builds/virtualbox-ubuntu1404.box`
 
