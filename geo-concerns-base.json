@@ -46,7 +46,18 @@
 	    "sudo apt-get -y install gdal-bin zip libmapnik=2.3* mapnik-utils=2.3* libmapnik-dev=2.3* mapnik-input-plugin-gdal mapnik-input-plugin-ogr mapnik-input-plugin-osm",
 	    "sudo cp -R /usr/lib/mapnik/ /usr/local/lib/.",
 	    "gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3",
-	    "\\curl -sSL https://get.rvm.io | bash -s stable --rails"
+	    "\\curl -sSL https://get.rvm.io | bash -s stable --rails",
+	    "sudo apt-get -y autoremove",
+	    "sudo apt-get -y clean",
+	    "sudo rm -rf VBoxGuestAdditions_*.iso VBoxGuestAdditions_*.iso.?",
+	    "sudo rm /var/lib/dhcp/*",
+	    "sudo rm /etc/udev/rules.d/70-persistent-net.rules",
+	    "sudo mkdir /etc/udev/rules.d/70-persistent-net.rules",
+	    "sudo rm -rf /dev/.udev/",
+	    "sudo rm /lib/udev/rules.d/75-persistent-net-generator.rules",
+	    "mkdir -pm 700 /home/vagrant/.ssh",
+	    "curl -o /home/vagrant/.ssh/authorized_keys https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub",
+	    "chown -R vagrant:vagrant /home/vagrant/.ssh"
 	]
     }],
     "post-processors": [
