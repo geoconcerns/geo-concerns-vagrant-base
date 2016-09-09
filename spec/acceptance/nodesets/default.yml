@@ -1,0 +1,7 @@
+HOSTS:
+  geo-concerns-vagrant-base:
+    roles:
+      - master
+    platform: ubuntu-14.04-amd64
+    box: geoconcerns/geo-concerns-vagrant-base
+    hypervisor: vagrant
