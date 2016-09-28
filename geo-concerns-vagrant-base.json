@@ -47,7 +47,7 @@
 	    "sudo cp -R /usr/lib/mapnik/ /usr/local/lib/.",
 	    "gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3",
 	    "\\curl -sSL https://get.rvm.io | bash -s stable --rails",
-	    "sudo gem install bundler simple_mapnik",
+	    "sudo gem install bundler simple_mapnik rgeoserver",
 	    "sudo apt-get -y autoremove",
 	    "sudo apt-get -y clean",
 	    "sudo rm -rf VBoxGuestAdditions_*.iso VBoxGuestAdditions_*.iso.?",
